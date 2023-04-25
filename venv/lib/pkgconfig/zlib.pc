@@ -1,0 +1,13 @@
+prefix=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv
+exec_prefix=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv
+libdir=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv/lib
+sharedlibdir=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv/lib
+includedir=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

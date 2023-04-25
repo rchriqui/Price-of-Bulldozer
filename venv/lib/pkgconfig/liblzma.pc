@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv
+exec_prefix=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv
+libdir=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv/lib
+includedir=/Users/robin/Desktop/my_projects/Price-of-Bulldozer/Price-of-Bulldozer/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.10
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
