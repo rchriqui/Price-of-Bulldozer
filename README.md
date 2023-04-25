@@ -5,7 +5,7 @@ How well can we predict the future sale price of a bulldozer, given its characte
 
 # 2. Data
 Looking at the dataset from Kaggle, you can you it's a time series problem. This means there's a time attribute to dataset.
-
+s
 In this case, it's historical sales data of bulldozers. Including things like, model type, size, sale date and more.
 
 There are 3 datasets:
