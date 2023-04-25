@@ -16,4 +16,4 @@ Test.csv - Historical bulldozer sales examples from May 1 2012 to November 2012 
 # 3. Evaluation
 For this problem, Kaggle has set the evaluation metric to being root mean squared log error (RMSLE). As with many regression evaluations, the goal will be to get this value as low as possible.
 
-To see how well our model is doing, we'll calculate the RMSLE and then compare our results to others on the Kaggle leaderboard.
+To see how well our model is doing, we'll calculate the RMSLE and then compare our results to others on the Kaggle leaderboard.# Price-of-Bulldozer
